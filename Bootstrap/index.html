@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <title>Bootstrap</title>
+    <link href="assests/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-light bg-primary">
+    <div class="container-fluid ">
+        <a class="navbar-brand text-white fw-bolder" href="#">Bootstrap</a>
+        <button aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"
+                class="navbar-toggler"
+                data-bs-target="#navbarSupportedContent" data-bs-toggle="collapse" type="button">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a aria-current="page" class="nav-link active text-white" href="#">Home</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!--<div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">-->
+<!--    <div class="carousel-inner">-->
+<!--        <div class="carousel-item active">-->
+<!--            <img src="assests/img/francesco-ungaro-1fzbUyzsHV8-unsplash.jpg" class="d-block w-100" alt="...">-->
+<!--        </div>-->
+<!--        <div class="carousel-item">-->
+<!--            <img src="assests/img/luke-stackpoole-mStq-dtsXCQ-unsplash.jpg" class="d-block w-100" alt="...">-->
+<!--        </div>-->
+<!--        <div class="carousel-item">-->
+<!--            <img src="assests/img/lucian-dachman-qxO2PBn7eKU-unsplash.jpg" class="d-block w-100" alt="...">-->
+<!--        </div>-->
+<!--    </div>-->
+<!--    <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-bs-slide="prev">-->
+<!--        <span class="carousel-control-prev-icon" aria-hidden="true"></span>-->
+<!--        <span class="visually-hidden">Previous</span>-->
+<!--    </a>-->
+<!--    <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-bs-slide="next">-->
+<!--        <span class="carousel-control-next-icon" aria-hidden="true"></span>-->
+<!--        <span class="visually-hidden">Next</span>-->
+<!--    </a>-->
+<!--</div>-->
+
+
+<section class="bg-light p-4 mt-1">
+    <h1>Hello Bootstrap</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias aliquid aperiam dicta eius illum natus
+        perferendis quas, quia reiciendis! Alias dignissimos, earum minus quaerat quos repellendus vel! Consequuntur,
+        laborum numquam.</p>
+</section>
+
+<section class="p-2">
+    <table class="table  table-hover">
+        <thead class="bg-danger text-white">
+        <tr>
+            <th>Customer ID</th>
+            <th>Customer Name</th>
+            <th>Customer Address</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>C001</td>
+            <td>Dasun</td>
+            <td>Galle</td>
+        </tr>
+        <tr>
+            <td>C001</td>
+            <td>Dasun</td>
+            <td>Galle</td>
+        </tr>
+        </tbody>
+    </table>
+</section>
+
+
+<div class="btn-group">
+    <button class="btn btn-danger">Save Customer</button>
+    <button class="btn btn-warning">Save Customer</button>
+    <button class="btn btn-primary">Save Customer</button>
+    <button class="btn btn-info">Save Customer</button>
+    <button class="btn btn-dark">Save Customer</button>
+    <button class="btn btn-light">Save Customer</button>
+    <button class="btn btn-close"></button>
+</div>
+
+<br>
+<br>
+
+<!--&lt;!&ndash; Button trigger modal &ndash;&gt;-->
+<!--<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">-->
+<!--    Launch demo modal-->
+<!--</button>-->
+
+<!--&lt;!&ndash; Modal &ndash;&gt;-->
+<!--<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">-->
+<!--    <div class="modal-dialog">-->
+<!--        <div class="modal-content">-->
+<!--            <div class="modal-header">-->
+<!--                <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>-->
+<!--                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>-->
+<!--            </div>-->
+<!--            <div class="modal-body">-->
+<!--                <h1>Hello there</h1>-->
+<!--            </div>-->
+<!--            <div class="modal-footer">-->
+<!--                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>-->
+<!--                <button type="button" class="btn btn-primary">Save changes</button>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--    </div>-->
+<!--</div>-->
+
+<form action="">
+    <div class="form-floating mb-3">
+        <input class="form-control" id="customerID" placeholder="Customer ID" type="text">
+        <label for="customerID">Customer ID</label>
+    </div>
+
+    <label class="form-label" for="customerName">Customer Name</label>
+    <input class="form-control" id="customerName" type="text">
+
+    <label class="form-label" for="customerAddress">Customer Address</label>
+    <input class="form-control" id="customerAddress" type="text">
+
+</form>
+
+
+<script src="assests/js/bootstrap.js"></script>
+</body>
+</html>

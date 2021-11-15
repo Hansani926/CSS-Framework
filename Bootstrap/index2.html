@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <title>Bootstrap</title>
+    <link href="assests/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+<section class="container">
+    <section class="row border">
+        <div class="col-4 border bg-warning">
+            <form>
+                <div class="form-floating mb-3">
+                    <input class="form-control" id="customerID" placeholder="CustomerID" type="text">
+                    <label for="customerID">Customer ID</label>
+                </div>
+                <div class="form-floating mb-3">
+                    <input class="form-control" id="customerName" placeholder="CustomerName" type="text">
+                    <label for="customerName">Customer Name</label>
+                </div>
+                <div class="form-floating mb-3">
+                    <input class="form-control" id="customerAddress" placeholder="CustomerAddress" type="text">
+                    <label for="customerAddress">Customer Address</label>
+                </div>
+
+                <button class="btn btn-success" type="button">Save Customer</button>
+                <button class="btn btn-danger" type="button">Clear</button>
+            </form>
+        </div>
+        <div class="col-6 mx-2 border bg-info mt-5">
+            <table class="table table-hover">
+                <thead class="bg-danger text-white">
+                <tr>
+                    <th>Customer ID</th>
+                    <th>Customer Name</th>
+                    <th>Customer Address</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>C001</td>
+                    <td>Kasun</td>
+                    <td>Galle</td>
+                </tr>
+                <tr>
+                    <td>C002</td>
+                    <td>Dasun</td>
+                    <td>Panadaura</td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+
+    </section>
+    <section class="row mt-5">
+        <div class="col-12">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda at aut, delectus dicta dolorem
+                dolores dolorum eveniet fuga illum in, iusto laborum odit placeat porro, sint sunt vel veritatis
+                vitae!</p>
+        </div>
+        <div class="col-6">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda at aut, delectus dicta dolorem
+                dolores dolorum eveniet fuga illum in, iusto laborum odit placeat porro, sint sunt vel veritatis
+                vitae!</p>
+        </div>
+        <div class="col">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda at aut, delectus dicta dolorem
+                dolores dolorum eveniet fuga illum in, iusto laborum odit placeat porro, sint sunt vel veritatis
+                vitae!</p>
+        </div>
+    </section>
+</section>
+
+
+<script src="assests/js/bootstrap.js"></script>
+</body>
+</html>
